@@ -43,6 +43,10 @@ dependencies {
     implementation 'org.hibernate:hibernate-core:5.3.27.Final'
     // https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
     implementation 'org.hibernate:hibernate-entitymanager:5.3.27.Final'
+
+    // validate
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
